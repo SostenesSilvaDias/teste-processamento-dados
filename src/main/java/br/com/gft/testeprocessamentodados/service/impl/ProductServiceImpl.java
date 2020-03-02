@@ -1,8 +1,8 @@
-package com.example.testeprocessamentodados.service.impl;
+package br.com.gft.testeprocessamentodados.service.impl;
 
-import com.example.testeprocessamentodados.documents.Product;
-import com.example.testeprocessamentodados.repository.ProductRepository;
-import com.example.testeprocessamentodados.service.ProductService;
+import br.com.gft.testeprocessamentodados.documents.Product;
+import br.com.gft.testeprocessamentodados.repository.ProductRepository;
+import br.com.gft.testeprocessamentodados.service.ProductService;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

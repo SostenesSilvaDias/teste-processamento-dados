@@ -1,8 +1,7 @@
-package com.example.testeprocessamentodados.controller;
+package br.com.gft.testeprocessamentodados.controller;
 
-import com.example.testeprocessamentodados.controller.dto.ProductDto;
-import com.example.testeprocessamentodados.documents.Product;
-import com.example.testeprocessamentodados.service.ProductService;
+import br.com.gft.testeprocessamentodados.controller.dto.ProductDto;
+import br.com.gft.testeprocessamentodados.service.ProductService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

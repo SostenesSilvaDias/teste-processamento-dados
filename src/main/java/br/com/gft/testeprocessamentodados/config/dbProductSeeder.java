@@ -1,9 +1,9 @@
-package com.example.testeprocessamentodados.config;
+package br.com.gft.testeprocessamentodados.config;
 
-import com.example.testeprocessamentodados.controller.dto.DataDto;
-import com.example.testeprocessamentodados.controller.dto.ProductDto;
-import com.example.testeprocessamentodados.documents.Product;
-import com.example.testeprocessamentodados.service.ProductService;
+import br.com.gft.testeprocessamentodados.controller.dto.DataDto;
+import br.com.gft.testeprocessamentodados.controller.dto.ProductDto;
+import br.com.gft.testeprocessamentodados.documents.Product;
+import br.com.gft.testeprocessamentodados.service.ProductService;
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.springframework.beans.factory.annotation.Value;

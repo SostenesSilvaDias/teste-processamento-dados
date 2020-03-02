@@ -1,6 +1,6 @@
-package com.example.testeprocessamentodados.documents;
+package br.com.gft.testeprocessamentodados.documents;
 
-import com.example.testeprocessamentodados.controller.dto.ProductDto;
+import br.com.gft.testeprocessamentodados.controller.dto.ProductDto;
 import lombok.Getter;
 import lombok.Setter;
 import org.springframework.data.annotation.Id;

@@ -1,4 +1,4 @@
-package com.example.testeprocessamentodados.controller.dto;
+package br.com.gft.testeprocessamentodados.controller.dto;
 
 import java.util.List;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;

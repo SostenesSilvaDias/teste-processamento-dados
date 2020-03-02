@@ -1,6 +1,6 @@
-package com.example.testeprocessamentodados.service;
+package br.com.gft.testeprocessamentodados.service;
 
-import com.example.testeprocessamentodados.documents.Product;
+import br.com.gft.testeprocessamentodados.documents.Product;
 
 import java.util.List;
 

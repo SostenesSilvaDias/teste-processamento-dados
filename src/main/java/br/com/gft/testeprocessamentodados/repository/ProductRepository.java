@@ -1,6 +1,6 @@
-package com.example.testeprocessamentodados.repository;
+package br.com.gft.testeprocessamentodados.repository;
 
-import com.example.testeprocessamentodados.documents.Product;
+import br.com.gft.testeprocessamentodados.documents.Product;
 import org.springframework.data.mongodb.repository.MongoRepository;
 import org.springframework.stereotype.Repository;
 

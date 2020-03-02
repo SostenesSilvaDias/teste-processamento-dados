@@ -1,4 +1,4 @@
-package com.example.testeprocessamentodados;
+package br.com.gft.testeprocessamentodados;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

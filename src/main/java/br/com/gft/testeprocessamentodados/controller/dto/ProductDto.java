@@ -1,6 +1,6 @@
-package com.example.testeprocessamentodados.controller.dto;
+package br.com.gft.testeprocessamentodados.controller.dto;
 
-import com.example.testeprocessamentodados.documents.Product;
+import br.com.gft.testeprocessamentodados.documents.Product;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonProperty;
