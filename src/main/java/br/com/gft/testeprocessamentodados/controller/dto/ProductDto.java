@@ -29,6 +29,8 @@ public class ProductDto {
 	String industry;
 	@JsonProperty("origin")
 	String origin;
+
+	Double volume;
 	
 	ProductDto() {};
 

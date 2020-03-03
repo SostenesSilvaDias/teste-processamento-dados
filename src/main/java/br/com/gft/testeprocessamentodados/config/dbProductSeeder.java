@@ -36,7 +36,7 @@ public class dbProductSeeder implements CommandLineRunner {
     }
 
     @Override
-    public void run(String... args) {
+    public void run(String... args) throws IOException {
         File diretorio = new File(pathName);
         File[] listFiles = diretorio.listFiles();
         InputStream inputStream;
@@ -44,7 +44,6 @@ public class dbProductSeeder implements CommandLineRunner {
         try {
             assert listFiles != null;
             for (File file : listFiles) {
-
                 inputStream = new FileInputStream(file);
                 DataDto readValue = mapper.readValue(inputStream, typeReference);
                 data.getProducts().addAll(readValue.getProducts());
@@ -53,7 +52,7 @@ public class dbProductSeeder implements CommandLineRunner {
             products.removeAll(productsInBase);
             productService.cadastrarTodos(Product.convert(products));
         } catch (IOException e){
-            System.out.println("Unable to save users: " + e.getMessage());
+            throw new IOException(e.getMessage());
         }
 
     }
